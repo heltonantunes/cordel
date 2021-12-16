@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Roboto&display=swap');
+
+/* =========== RESET ============ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Charm', cursive;
+}
+
+body {
+  background-color: rgb(90, 88, 88);
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* =========== HEADER ============ */
+
+header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.748);
+  position: fixed;
+  padding: 1%;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 5vw;
+  color: #fff;
+  margin-bottom: -2%;
+}
+
+header p {
+  text-align: center;
+  color: #fff;
+  font-size: 2vw;
+  font-family: 'Charm', cursive;
+}
+
+header p a {
+  text-decoration: none;
+  color: rgb(98, 182, 161);
+  margin-left: 1%;
+}
+
+/* =========== SECTION WHITE ============ */
+
+#section1{
+  padding-top: 18%;
+}
+
+.white {
+  padding: 7% 2%;
+  background-color: rgba(255, 255, 255, 0.933);
+  font-weight: bold;
+}
+
+.white p{
+  font-size: 1.5em;
+}
+
+/* =========== SECTION TRANSPARENT ============ */
+
+.transparent {
+  padding: 7% 2%;
+}
+
+.transparent p {
+  padding: 7% 2%;
+  background-color: rgba(0, 0, 0, 0.768);
+  color: #fff;
+  width: 45vw;
+  font-size: 1.5em;
+}
+
+/* =========== BACKGROUND IMAGE / PARALLAX ============ */
+
+#img1 {
+  background: black url(imagens/background001.jpg) right center no-repeat fixed;
+  background-size: cover;
+}
+
+#img2 {
+  background: black url(imagens/background002.jpg) right center no-repeat fixed;
+  background-size: cover;
+}
+
+/* =========== FOOTER ============ */
+
+footer {
+  padding: 3% 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.748);
+}
+
+footer p{
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: .5em;
+}
+
+footer p a{
+  font-family: sans-serif;
+  text-decoration: none;
+  color: rgb(102, 93, 93);
+  padding: 0 1%;
+}
